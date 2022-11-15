@@ -1,0 +1,32 @@
+@font-face {
+    font-family: StarWars;
+    src: url(Starjhol.ttf);
+}
+
+body {
+    background-image: url("sky_atmosphere.jpg");
+    position: fixed;
+    font-family: StarWars;
+    color:white;
+    text-align: center;
+}
+#wrapper {
+    margin-left: 500px;
+    padding: 30px;
+    padding-bottom:100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 70%;
+}
+h1 {
+    font-size: 50pt;
+    margin-top: 15%;
+    color:yellow;
+}
+div {
+    width: 60%;
+    margin-left: 20%;
+    background-color:rgba(255, 255, 0, 0.4);
+    padding:5px;
+    margin-bottom:25px;
+    border-radius:5px;
+}

@@ -1,0 +1,99 @@
+/** CSS-Stylesheet
+*	author: 
+**/
+
+/************* general settings *************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri Light", "Helvetica", sans-serif;
+}
+h1, h2 {
+    text-transform: uppercase;
+    color: #378fe7;
+}
+
+/************* header *************/
+.header{
+    background-color: #1976d2;
+    display:flex;
+}
+a {
+    margin-left:6%;
+    margin-right:7%;
+    color:white;
+    text-decoration: none;
+    font-size: 19pt;
+}
+#header-img{
+    width:100%;
+}
+#header-img-home{
+    width:60%;
+}
+/************* main content (boxes) *************/
+.box {
+    display: inline-block;
+    width:60%;
+}
+.bigbox {
+    margin-left:10%;
+    margin-right:10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width:50%;
+
+}
+hr {
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+}
+.smallbox {
+    display: inline-block;
+    width:15%;
+    margin-left:9%;
+    margin-right:9%;
+}
+.feature-bigbox {
+    margin-left: 15%;
+    margin-right: 15%;
+    width:70%;
+
+}
+
+/************* main content (images) *************/
+#homeLogo{
+    width:10%;
+}
+img{
+    width:35%;
+    display: inline-block;
+}
+.featureimage{
+    margin-left:45%;
+    margin-right:45%;
+    width:10%;
+}
+
+/************* main content (text) *************/
+#feature-h1{
+    color:white;
+    background-color:#378fe7;
+    padding: 15px;
+    font-weight: normal;
+    margin:0%;
+}
+.feature-h2{
+    text-align:center;
+}
+
+
+/************* footer *************/
+#footer{
+    background-color:#1976d2;
+    color:white;
+    text-align:center;
+}
+
+

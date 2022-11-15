@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Display Spaltenlayout</title>
+        <meta name="description" content="Testseite mit mehreren umfließenden Boxen">
+		<style>
+			/* Internes Stylesheet */
+			body {
+				margin: 0;
+				color: #fff;
+			}
+			h2 {
+				text-align: center;
+				margin-top: 0;
+				padding: 2%;
+				background-color: #69ad97;
+			}
+			
+			div {
+                width: 90%;
+                height: 70px;
+                margin: 15px;
+				padding: 10px;
+			}
+
+			#one {
+				background-color:#69ad97;
+				display: inline-block;
+				text-align: center;
+				font-size: 20pt;
+			}
+
+			.twoAndThree {
+				display: flex;
+			}
+
+			#four {
+				display: flex;
+			}
+
+			#twoPointOne {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+			#twoPointTwo {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+
+			#threePointOne {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+			#threePointTwo {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+
+			#fourPointOne {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+			#fourPointTwo {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+			#fourPointThree {
+				background-color:#69ad97;
+				display:inline-block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h2>Flexboxen Spaltenlayout</h2>
+
+		<!-- Erstelle passende Flex-Container um das gewünschte Flexbox Layout umzusetzen -->
+		
+		<!-- Zeile 1 = Überschrift -->
+		<div id="one">Spaltenlayout 1</div>
+		<!-- Zeilen 2 und 3 > 2-Spalten-Layout -->
+		<div class="twoAndThree">
+		<div id="twoPointOne">2 Spalten<br><br>flexibel</div>
+		<div id="twoPointTwo">2 Spalten<br><br>dynamisch</div>
+		</div>
+		<div class="twoAndThree">
+		<div id="threePointOne">2 Spalten<br><br>flexibel</div>
+		<div id="threePointTwo">2 Spalten<br><br>dynamisch</div>
+		</div>
+
+		<!-- Zeile 4 > 3-Spalten-Layout -->
+		<div id="four">
+		<div id="fourPointOne">3 Spalten<br><br>flexibel</div>
+		<div id="fourPointTwo">3 Spalten<br><br>dynamisch</div>
+		<div id="fourPointThree">3 Spalten<br><br>anpassend</div>
+		</div>
+
+	</body>
+</html>

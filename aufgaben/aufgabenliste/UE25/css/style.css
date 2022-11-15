@@ -1,0 +1,53 @@
+/* remove default margin, setting font and filling area */
+* {
+margin:0;
+padding:0;
+}
+
+/******** body general settings ********/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 140%;
+    background-image: url("../img/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#wrapper {
+    background-color: #a8a8a8;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*************** navigation ***********************/
+#navigation {
+    background-color:white;
+    font-weight:bold;
+
+}
+a {
+    text-decoration:none;
+}
+
+/************** sehenswürdigkeiten **************/
+#flexbox {
+    display:flex;
+    background-color:white;
+    margin: 5%;
+}
+.innerBox {
+    display:flexbox;
+    width: 40%;
+    margin: 5%;
+}
+
+
+/**********************footer**********************/
+footer {
+    text-align:center;
+    background-color: blue;
+    color: white;
+}
+footer:hover {
+    background-color:green;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family:Copperplate Gothic Light, Arial, sans-serif;
+    text-align: center;
+    color:white;
+    background-color:#006666;
+}
+.sun-icon {
+    color:#ffff00;
+}
+.sun {
+    color:#ffff00;
+}
+.cloud-icon {
+    color:#bbb;
+}
+.cloud {
+    color:#bbb;
+}
+.rain-icon {
+    color:#0000ff;
+}
+.rain {
+    color:#0000ff;
+}
+.min {
+    color:#9999ff;
+}
+.max {
+    color:#ff3333;
+}
+ul {
+    list-style-type: none;
+}

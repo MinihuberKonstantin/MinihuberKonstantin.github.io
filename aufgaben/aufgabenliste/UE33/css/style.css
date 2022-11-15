@@ -1,0 +1,83 @@
+/** CSS-Stylesheet
+*	author: HTL Leonding
+**/
+
+
+/* remove default margins */
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url(../img/background_rock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	min-height: 100vh;
+}
+/* centerd design with background */
+#wrapper {
+	position: relative;
+    width: 60%;
+	margin: 0 auto;
+    background-color: rgba(0,0,0,0.2);
+	min-height: 100vh;
+}
+
+
+
+/*************
+* Typo       *
+**************/
+h1 {
+    font-size: 25px;
+    font-family: Helvetica;
+    color: #fff;
+    padding-top: 2%;
+    margin-top: 0;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+
+
+/*************
+* Images     *
+**************/
+img, .bg-img {
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    background-color: rgba(255,255,255,0.6);
+	cursor: pointer;
+	border-radius: 5vw;
+}
+.twoColumns img {
+	margin-left: 25%;
+}
+.bg-img {
+	margin-left: 20%;
+}
+#background-image1 {
+    background-image: url("../img/bmw_logo.png");
+    background-size: contain;
+}
+#background-image1:hover {
+    background-image: url("../img/bmw_auto.png");
+}
+#background-image2 {
+    background-image: url("../img/vw_logo.png");
+    background-size: contain;
+}
+#background-image2:hover {
+    background-image: url("../img/vw_auto.png");
+}
+
+/*************
+* Flexbox    *
+**************/
+.flex-row {
+	display: flex;
+	padding-bottom: 10%;
+}
+.twoColumns {
+	width: 50%;
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align:center
+}
+h1 {
+    background-color:#c75b12;
+}
+.box {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+}
+img {
+    height: 50px;
+    border:solid;
+    background-color:white;
+}
+#access {
+    background-color:#a03336;
+}
+#excel {
+    background-color:#1d6f42;
+}
+#one_drive {
+    background-color:#094ab2;
+}
+#one_note {
+    background-color:#7e3779;
+}
+#powerpoint {
+    background-color:#d04423;
+}
+#sway {
+    background-color:#16897c;
+}
+#word {
+    background-color:#2a5699;
+}
