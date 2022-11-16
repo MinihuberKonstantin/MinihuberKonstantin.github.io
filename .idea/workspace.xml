@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="" />
+    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Slightly improved the webpage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/IDONotTrustCMsAtAll/Desktop/Schulaufgaben/CPR SW/webpage/MinihuberKonstantin.github.io/aufgaben/aufgabenliste/UE26/img",
+    "last_opened_file_path": "C:/Users/IDONotTrustCMsAtAll/Desktop/Schulaufgaben/MEDT/UE54",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -51,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668509144043</updated>
-      <workItem from="1668509145266" duration="2582000" />
+      <workItem from="1668509145266" duration="3431000" />
+      <workItem from="1668595967616" duration="353000" />
     </task>
     <servers />
   </component>

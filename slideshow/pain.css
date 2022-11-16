@@ -47,7 +47,7 @@ h1 {
 #darkThingIdkHowToCallItTbh {
     display: block;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 50%);
+    background-color: rgba(255, 255, 255, 50%);
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -55,6 +55,7 @@ h1 {
     top: 0;
     left: 0;
 }
+
 #allOfThatActualSweetSweetJSEnabler {
     z-index: 10;
     display: block;
