@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Made more performance improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diceattack/media/jpg/background-image.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/diceattack/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/diceattack/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slideshow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideshow/index.html" afterDir="false" />
     </list>
@@ -25,20 +27,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ha30TtRjKjBmZk5V9d93wCjXrL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IDONotTrustCMsAtAll/Desktop/Schulaufgaben/MEDT/UE54&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/IDONotTrustCMsAtAll/Desktop/Schulaufgaben/MEDT/UE54",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IDONotTrustCMsAtAll\Desktop\Schulaufgaben\CPR SW\webpage\MinihuberKonstantin.github.io\aufgaben\aufgabenliste\UE26\img" />
@@ -57,7 +63,7 @@
       <updated>1668509144043</updated>
       <workItem from="1668509145266" duration="3431000" />
       <workItem from="1668595967616" duration="353000" />
-      <workItem from="1670320848989" duration="2479000" />
+      <workItem from="1670320848989" duration="3111000" />
     </task>
     <task id="LOCAL-00001" summary="Improved the webpage perfomrance">
       <created>1670321530710</created>
@@ -80,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670322442103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made more performance improvements">
+      <created>1670323510362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670323510362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Improved the webpage perfomrance" />
     <MESSAGE value="Fixed the mistakes that I made when trying to improve performance" />
     <MESSAGE value="Made more performance improvements" />

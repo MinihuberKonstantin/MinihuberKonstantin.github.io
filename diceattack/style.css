@@ -36,7 +36,6 @@
 body {
     overflow: hidden;
     height: 100vh;
-    background-image: url(./media/jpg/background-image.webp);
     background-size: 100vw;
 }
 
