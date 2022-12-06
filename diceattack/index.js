@@ -305,8 +305,9 @@ function newRound(firstFighterNumber, secondFighterNumber) {
     eval('player' + firstFighterNumber + '.usePassiveAbility(player' + secondFighterNumber + ')');
     eval('player' + secondFighterNumber + '.usePassiveAbility(player' + firstFighterNumber + ')');
     gamediv.innerHTML =
-        '<img src="./media/jpg/cube' + eval('player' + firstFighterNumber + '.diceRoll') + '.png" class="dice">' +
-        '<img src="./media/jpg/cube' + eval('player' + secondFighterNumber + '.diceRoll') + '.png" class="dice">';
+        '<img alt="" src="./media/jpg/cube' + eval('player' + firstFighterNumber + '.diceRoll') + '.png"' +
+        ' class="dice">' +
+        '<img alt="" src="./media/jpg/cube' + eval('player' + secondFighterNumber + '.diceRoll') + '.png" class="dice">';
     if (eval('player' + firstFighterNumber + '.diceRoll') >= eval('player' + secondFighterNumber + '.diceRoll')) attack(secondFighterNumber, firstFighterNumber);
     if (eval('player' + firstFighterNumber + '.diceRoll') <= eval('player' + secondFighterNumber + '.diceRoll')) attack(firstFighterNumber, secondFighterNumber);
     resetDiceRolls(firstFighterNumber, secondFighterNumber);
