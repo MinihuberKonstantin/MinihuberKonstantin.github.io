@@ -2,6 +2,7 @@ const imageElementArray = [document.getElementById('img1'), document.getElementB
 const imageArray = ['./media/cube0.png', './media/cube1.png', './media/cube2.png', './media/cube3.png', './media/cube4.png', './media/cube5.png', './media/cube6.png', './media/cube7.png', './media/cube8.png', './media/cube9.png', './media/cube-1.png'];
 let currentFirstImage = imageArray.length - 1;
 let interval = setInterval(() => (slideThroughImages(true)), 5000);
+document.getElementById('allOfThatActualSweetSweetJSEnabler').style.display = 'block';
 
 function slideThroughImages(isDirectionRight) {
     if (isDirectionRight) {

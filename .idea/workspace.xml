@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Made more performance improvements">
+    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Made even more performance improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aufgaben/aufgaben.html" beforeDir="false" afterPath="$PROJECT_DIR$/aufgaben/aufgaben.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diceattack/media/jpg/background-image.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diceattack/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/diceattack/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slideshow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideshow/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideshow/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/slideshow/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <updated>1668509144043</updated>
       <workItem from="1668509145266" duration="3431000" />
       <workItem from="1668595967616" duration="353000" />
-      <workItem from="1670320848989" duration="3111000" />
+      <workItem from="1670320848989" duration="4154000" />
     </task>
     <task id="LOCAL-00001" summary="Improved the webpage perfomrance">
       <created>1670321530710</created>
@@ -93,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670323510362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made even more performance improvements">
+      <created>1670324049755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670324049755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Made even more performance improvements">
+      <created>1670324222026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670324222026</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +129,7 @@
     <MESSAGE value="Improved the webpage perfomrance" />
     <MESSAGE value="Fixed the mistakes that I made when trying to improve performance" />
     <MESSAGE value="Made more performance improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made more performance improvements" />
+    <MESSAGE value="Made even more performance improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made even more performance improvements" />
   </component>
 </project>
