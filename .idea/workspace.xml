@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Slightly improved the webpage">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Konstantinwebseitenhintergrund.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="6262db9f-a6f6-449d-9f2c-769bf0f02139" name="Changes" comment="Improved the webpage perfomrance" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,8 +53,16 @@
       <updated>1668509144043</updated>
       <workItem from="1668509145266" duration="3431000" />
       <workItem from="1668595967616" duration="353000" />
-      <workItem from="1670320848989" duration="301000" />
+      <workItem from="1670320848989" duration="716000" />
     </task>
+    <task id="LOCAL-00001" summary="Improved the webpage perfomrance">
+      <created>1670321530710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670321530710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Improved the webpage perfomrance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved the webpage perfomrance" />
   </component>
 </project>
