@@ -183,9 +183,9 @@ video {
 }
 
 .blogpost {
-    background-color : #7289daff;
+    background-color : black;
     border-radius    : 8px;
-    color            : #2c3969ff;
+    color            : white;
     margin-left      : 31vw;
     padding          : 4vw;
     width            : 30vw;
