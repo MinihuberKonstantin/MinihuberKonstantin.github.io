@@ -1,0 +1,85 @@
+/******font******/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nabla&family=Poppins&family=Roboto:wght@400;500&family=Silkscreen&display=swap');
+
+/******basic settings******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/******structure******/
+
+header {
+    height: 12.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 12.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/******slot structure******/
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#container div {
+    display: flex;
+}
+
+.slot {
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: lightgray;
+    margin: 1%;
+}
+
+#middle-row .slot {
+    background-color: lightpink;
+}
+
+/******button******/
+
+#button {
+    width: 6%;
+    padding: 1%;
+    background: lightgrey;
+    border-radius: 15px;
+    transition-duration: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button:hover {
+    border: 2px solid grey;
+}
