@@ -64,6 +64,8 @@ main {
 
 #middle-row .slot {
     background-color: lightpink;
+    width: 16vh;
+    height: 16vh;
 }
 
 /******button******/
@@ -81,5 +83,5 @@ main {
 }
 
 #button:hover {
-    border: 2px solid grey;
+    border: 3px solid grey;
 }
